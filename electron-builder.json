@@ -1,0 +1,28 @@
+{
+  "productName": "BritSpeech Studio",
+  "appId": "com.nguyenducdai.britspeechstudio",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-server/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "artifactName": "BritSpeech-Studio-Portable.${ext}"
+  },
+  "portable": {
+    "artifactName": "BritSpeech-Studio-Portable.exe",
+    "requestExecutionLevel": "user"
+  }
+}

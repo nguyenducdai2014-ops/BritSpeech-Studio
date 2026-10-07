@@ -1,0 +1,7 @@
+{
+  "name": "BritSpeech Studio",
+  "description": "Professional British English Text-to-Speech platform with dual flows for articles and multi-speaker dialogues featuring 4 authentic British voice personas and instant audio download.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
